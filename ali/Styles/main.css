@@ -1,0 +1,335 @@
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #FFF;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+a:link {
+	color: #0344a8;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0344a8;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+h1 {
+	color: #333;
+}
+h2 {
+	color: #0344a8;
+}
+#container {
+	height: 1000px;
+	width: 960px;
+	/* [disabled]background-color: #CCC; */
+	margin: auto;
+	border: solid 1px lightgray;
+	box-shadow: 0px 0px 40px darkGray;
+}
+#logo {
+	
+	height: 58px;
+	width: 268px;
+	margin-top: 45px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	position: absolute;
+}
+
+#header {
+	background-color: #060;
+	height: 160px;
+	width: 960px;
+	background-image: url(../images/bannerbg.png);
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: 0px;
+}
+
+
+#HeaderText {
+	position:absolute;
+	left:439px;
+	top:19px;
+	width:192px;
+	height:85px;
+	z-index:1;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F6F6F6;
+	margin-left: 50px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#searchbar {
+	background-color: #E6E6E6;
+	height: 30px;
+	width: 190px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	position: absolute;
+	top: 80px;
+	margin-left: 750px;
+}
+#navbar {
+	height: 40px;
+	width: 960px;
+	text-align: center;
+	background-image:url(../images/bgNavbar.png);
+	background-repeat: repeat-x;
+	position: relative;
+	padding: 0px;
+	top: 121px;
+
+}
+#Searchform {
+	background-color: #F8F8F8;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 30px;
+	width: 193px;
+	border-right-width: 0px;
+	border-bottom-left-radius: 3px;
+}
+#searchField {
+	background-color: #FBFBFB;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 20px;
+	width: 155px;
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #333;
+}
+#searchButton {
+	background-image: url(../images/searchlogo.png);
+	height: 30px;
+	width: 34px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: pointer;
+}
+/*#navbar ul li{
+	display: inline;
+	width: 106px;
+	border-right: 1px solid #B8B8B8;
+	
+	height: 40px;
+	padding-top: 12px;
+	padding-right: 22px;
+	padding-bottom: 13px;
+	padding-left: 22px;
+	position: relative;
+	vertical-align: middle;
+
+	top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #6d6d6f;
+}*/
+/*#navbar ul li:hover {
+	display: inline;
+	width: 106px;
+	border-right: 1px solid #B8B8B8;
+
+	height: 40px;
+	padding-top: 12px;
+	padding-right: 22px;
+	padding-bottom: 13px;
+	padding-left: 22px;
+	position: relative;
+	vertical-align: middle;
+	
+	top: 10px;
+	background-image: url(../images/bgNavbarActive.png);
+	background-repeat: repeat-x;
+	color: #f5f5f5;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}*/
+/*#navbar ul {
+	margin: 0px;
+	padding: 0px;
+}*/
+#sidebar {
+	/* [disabled]background-color: #306; */
+	float: left;
+	height: 600px;
+	width: 200px;
+	position: relative;
+}
+#main {
+	/* [disabled]background-color: #C39; */
+	height: 660px;
+	width: 960px;
+	/* [disabled]float: left; */
+	/* [disabled]clear: none; */
+	margin-top: 5px;
+}
+.panel {
+	background-color: whiteSmoke;
+	position: relative;
+	height: auto;
+	border: solid 1px lightgray;
+	border-radius: 5px;
+	margin: 7px;
+	width: auto;
+	padding-bottom: 20px;
+}
+#footer {
+	background-color: whiteSmoke;
+	height: 133px;
+	width: 960px;
+	float: right;
+	/* [disabled]margin-top: 66px; */
+	border-top: 1px solid #CCC;
+}
+#footnav ul {
+	/* [disabled]width: auto; */
+	margin-top: 10px;
+	margin-right: 125px;
+	margin-bottom: 10px;
+	margin-left: 125px;
+}
+#footcontent ul {
+	/* [disabled]width: auto; */
+
+	margin-top: 10
+.px;
+	margin-right: 145px;
+	margin-bottom: 10px;
+	margin-left: 145px;
+	margin-top: 30px;
+}
+#copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #656565;
+	padding-right: 375px;
+	padding-left: 375px;
+	margin-top: 40px;
+}
+
+
+
+
+#content .panel .panelBody {
+	width: auto;
+	height: auto;
+	padding: 10px;
+}
+#footnav ul li {
+	display: inline;
+	/* [disabled]margin-top: 5px; */
+	margin-right: 15px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	padding: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	/* [disabled]font-weight: bold; */
+	text-transform: uppercase;
+	color: #0344a8;
+}
+#footcontent ul li {
+	display: inline;
+	/* [disabled]margin-top: 5px; */
+	margin-right: 15px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	padding: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	/* [disabled]font-weight: bold; */
+	text-transform: uppercase;
+	color: #0344a8;
+}
+
+#content {
+	width: 760px;
+	float: right;
+	height: 701px;
+}
+#DivUserWelcome {
+	position:absolute;
+	height:23px;
+	z-index:1;
+	/* [disabled]left: 701px; */
+	top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F6F6F6;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: right;
+	right: 5px;
+	float: right;
+}
+
+
+
+.panelHeading {
+	font-family: Tahoma, Geneva, sans-serif;
+	background-image: url(../images/bgPanelHeading.png);
+	background-repeat: repeat-x;
+	height: 35px;
+	position: relative;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #f5f5f5;
+	/* [disabled]padding: 5px; */
+	text-align: center;
+	/* [disabled]vertical-align: bottom; */
+	padding-top: 8px;
+}
+.panelBody {
+	padding: 10px;
+}
+.panelBody ul li {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #0344a8;
+	list-style-type: none;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+.panelBody ul {
+	margin: 10px;
+	padding: 0px;
+}
+.Button {
+	font-family: Tahoma, Geneva, sans-serif;
+	background-image: url(../images/bgNavbarActive.png);
+	background-repeat: repeat-x;
+	height: 31px;
+	width: 100px;
+	border: 1px solid #CCC;
+	color: #FFF;
+	font-weight: bold;
+	margin-left: 35px;
+}
+h4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #0344a8;
+	font-weight: bold;
+}
+
+.linksStyle {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color:#0344a8;
+}

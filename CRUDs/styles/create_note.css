@@ -1,0 +1,27 @@
+*{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.content{
+  /* background: pink; */
+  width: 50%;
+  margin: 5% auto;
+}
+
+input,textarea{
+  width: 100%;
+  font-size: 1.5em;
+  margin: 5px;
+  padding: 10px;
+}
+input[type="submit"]{
+  box-sizing: content-box;
+  background-color: #4CAF50;
+  color: white;
+  border: 0px;
+}
+
+input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: #3a7d3d;
+}

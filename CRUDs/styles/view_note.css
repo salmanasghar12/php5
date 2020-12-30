@@ -1,0 +1,10 @@
+*{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.content{
+  /* background: pink; */
+  font-size: 1.2em;
+  width: 40%;
+  margin: 10% auto;
+  text-align: justify;
+}

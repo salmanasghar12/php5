@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecordsetSubCategories" value="name:id;datatype:int,name:Name;datatype:string" />
+	<infoitem key="UD_RecordsetCatID" value="name:id;datatype:int" />
+	<infoitem key="UD_RecordsetSubCatID" value="name:id;datatype:int" />
+</info>

@@ -1,0 +1,27 @@
+<tr>
+			<td><font color="#0000FF" size="2" face="arial">PAPER ID</font></td>
+             <td>
+			
+			<select size="1" class="input" maxlength="50" name="paper_id" style="width:150px" required="required">
+			<option></option>
+	<?php
+	@ $db = new mysqli('localhost', 'root', '', 'newspaper_management');
+	if (mysqli_connect_errno()) {
+    echo 'Error: Could not connect to database.  Please try again later.';
+    exit;
+	}
+	$query = "select paper_id from paper_magazine";
+	$result = $db->query($query);
+	$num_results = $result->num_rows; 
+	?>
+	<?php for ($i=0; $i <$num_results; $i++) { ?></font> 
+	<font color="#008000"> <?php $row = $result->fetch_assoc();?> </font>		
+	<option><font color="#008000"><?php echo  stripslashes($row['paper_id']); ?></font></option>
+	<?php 
+	} 
+	$result->free(); 
+	$db->close(); 
+	?>
+			</select>
+			</td>
+      </tr>

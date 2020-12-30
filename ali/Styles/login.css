@@ -1,0 +1,22 @@
+#LoginDiv {
+	width: 520px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: darkgray;
+	height: auto;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: none;
+	position: relative;
+}
+#signup {
+	/* [disabled]background-color: #C36; */
+	float: right;
+	height: auto;
+	width: 130px;
+	position: absolute;
+	top: 78px;
+	left: 546px;
+	padding: 20px;
+}

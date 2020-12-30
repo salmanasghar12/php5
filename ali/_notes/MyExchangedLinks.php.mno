@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RecordsetExchangedLinks" value="name:id;datatype:int,name:link1;datatype:int,name:user1;datatype:int,name:link2;datatype:int,name:user2;datatype:int,name:isValid;datatype:int" />
+</info>
